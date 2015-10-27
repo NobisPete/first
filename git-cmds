@@ -1,0 +1,47 @@
+The most commonly used git commands are:
+   add        Add file contents to the index
+   bisect     Find by binary search the change that introduced a bug
+   branch     List, create, or delete branches
+   checkout   Checkout a branch or paths to the working tree
+   clone      Clone a repository into a new directory
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   fetch      Download objects and refs from another repository
+   grep       Print lines matching a pattern
+   init       Create an empty Git repository or reinitialize an existing one
+   log        Show commit logs
+   merge      Join two or more development histories together
+   mv         Move or rename a file, a directory, or a symlink
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+   rebase     Forward-port local commits to the updated upstream head
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+   show       Show various types of objects
+   status     Show the working tree status
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+
+  add                       clone                     fetch-pack                ls-files                  notes                     remote-http               stash
+  add--interactive          column                    filter-branch             ls-remote                 p4                        remote-https              status
+  am                        commit                    fmt-merge-msg             ls-tree                   pack-objects              remote-testsvn            stripspace
+  annotate                  commit-tree               for-each-ref              mailinfo                  pack-redundant            repack                    submodule
+  apply                     config                    format-patch              mailsplit                 pack-refs                 replace                   subtree
+  archive                   count-objects             fsck                      merge                     patch-id                  request-pull              symbolic-ref
+  bisect                    credential                fsck-objects              merge-base                prune                     rerere                    tag
+  bisect--helper            credential-cache          gc                        merge-file                prune-packed              reset                     unpack-file
+  blame                     credential-cache--daemon  get-tar-commit-id         merge-index               pull                      rev-list                  unpack-objects
+  branch                    credential-store          grep                      merge-octopus             push                      rev-parse                 update-index
+  bundle                    daemon                    hash-object               merge-one-file            quiltimport               revert                    update-ref
+  cat-file                  describe                  help                      merge-ours                read-tree                 rm                        update-server-info
+  check-attr                diff                      http-backend              merge-recursive           rebase                    send-pack                 upload-archive
+  check-ignore              diff-files                http-fetch                merge-resolve             receive-pack              sh-i18n--envsubst         upload-pack
+  check-mailmap             diff-index                http-push                 merge-subtree             reflog                    shell                     var
+  check-ref-format          diff-tree                 imap-send                 merge-tree                relink                    shortlog                  verify-pack
+  checkout                  difftool                  index-pack                mergetool                 remote                    show                      verify-tag
+  checkout-index            difftool--helper          init                      mktag                     remote-ext                show-branch               web--browse
+  cherry                    fast-export               init-db                   mktree                    remote-fd                 show-index                whatchanged
+  cherry-pick               fast-import               instaweb                  mv                        remote-ftp                show-ref                  write-tree
+  clean                     fetch                     log                       name-rev                  remote-ftps               stage
+
+
